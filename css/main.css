@@ -41,3 +41,11 @@ button {
   padding: .5em .75em;
   background-color: #70ad55;
 }
+
+fieldset {
+  border: none;
+}
+
+hr {
+  border-color: #70ad55;
+}
