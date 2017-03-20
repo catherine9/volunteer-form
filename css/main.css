@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: 'Droid Serif', serif;
+  font-family: "Droid Serif", serif;
 }
 
 *, *::before, *::after {
@@ -29,6 +29,7 @@ form div {
 input, select, textarea {
   font-size: 1.125rem;
   width: 15em;
+  border-color: #6e8c62;
 }
 
 textarea {
