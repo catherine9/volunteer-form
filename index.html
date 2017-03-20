@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-  <head>
-    <meta charset="utf-8">
-    <title>volunteer-form</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/modules.css">
-    <link rel="stylesheet" href="css/type.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
-  </head>
-  <body>
-    <form class="contact max-length push-0 pad-t-2 pad-b-2 island" method="POST" action="https://formspree.io/lega0232@algonquinlive.com">
-      <header>
-    <h1 class="island">Apply to be a tree planter</h1>
-    <p class="mega push">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
-  </header>
+<head>
+  <meta charset="utf-8">
+  <title>volunteer-form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/modules.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/type.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+</head>
+<body>
+  <form class="contact max-length push-0 pad-t-2 pad-b-2 island" method="POST" action="https://formspree.io/lega0232@algonquinlive.com">
+    <header>
+      <h1 class="island">Apply to be a tree planter</h1>
+      <p class="mega push">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </header>
     <fieldset>
       <legend>Personal details</legend>
       <div class="grid">
@@ -66,7 +66,7 @@
         </div>
         <div class="unit unit xs-1 s-1 m-1 l-1-2 xl-1-2 push">
           <label for="city">City</label>
-          <input id="city" type="name">
+          <input id="city" name="city">
         </div>
         <div class="unit unit-xs-1 s-1 m-1 l-1-2 xl-1-2 push">
           <label for="info">Province</label>
@@ -117,15 +117,15 @@
 
           <input id="manage" type="checkbox">
           <label for="manage">Managing people</label>
+        </div>
       </div>
-    </div>
       <div class="unit unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push">
         <label for="info" class="bold">Do you have any experience with the following?</label>
         <input id="shovel" type="checkbox">
         <label for="shovel">Shovels</label>
 
-        <input id="GPS" type="checkbox">
-        <label for="GPS">Hand-held GPS</label>
+        <input id="gps" type="checkbox">
+        <label for="gps">Hand-held GPS</label>
 
         <input id="blog" type="checkbox">
         <label for="blog">Writing & blogging</label>
@@ -139,8 +139,8 @@
         <input id="bush" type="checkbox">
         <label for="bush">Bush craft</label>
 
-        <input id="ATV" type="checkbox">
-        <label for="ATV">ATVs</label>
+        <input id="atv" type="checkbox">
+        <label for="atv">ATVs</label>
 
         <input id="plant" type="checkbox">
         <label for="plant">Plant identification</label>
@@ -150,9 +150,9 @@
 
         <input id="group" type="checkbox">
         <label for="group">Speaking to groups</label>
-    </div>
-  <hr>
-</fieldset>
+      </div>
+      <hr>
+    </fieldset>
     <fieldset>
       <legend>Do you have a valid driver’s license?</legend>
       <input id="driver-yes" type="radio" name="fav-button">
@@ -188,11 +188,11 @@
       <div class="text-center push">
         <button class="btn" type="submit">Apply</button>
       </div>
-  </fieldset>
+    </fieldset>
 
-<footer>
-  © Tree Hugger International Organization
-</footer>
-</form>
+    <footer>
+      © Tree Hugger International Organization
+    </footer>
+  </form>
 </body>
 </html>
