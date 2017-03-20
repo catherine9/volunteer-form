@@ -6,6 +6,7 @@
 
 html {
   box-sizing: border-box;
+  font-family: 'Droid Serif', serif;
 }
 
 *, *::before, *::after {
@@ -13,7 +14,8 @@ html {
 }
 
 header {
-  background-color: #6e8c62;
+  background-color: #70ad55;
+  color: #fff;
 }
 
 label {
