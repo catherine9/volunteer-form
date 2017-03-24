@@ -33,7 +33,7 @@
           <label for="email">Date of birth</label>
           <input id="date" type="date">
         </div>
-        <div class="info-right unit gutter-1-2 unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-4 pad-b-1-4">
+        <div class="info-right unit gutter-1-2 unit-xs-1 s-1 m-1-2">
           <label class="pad-b-1-8" for="subject">T-shirt size</label>
           <select class="push" name="shirt" id="subject">
             <option value="">Select a t-shirt size</option>
@@ -49,29 +49,29 @@
             <option>Straight-cut: XL</option>
           </select>
         </div>
-        <div class="unit gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-4 pad-b-1-4">
+        <div class="unit gutter-1-2 unit xs-1 s-1 m-1-2">
           <label class="pad-b-1-8" for="email">Email</label>
           <input class="push" id="email" type="email">
         </div>
-        <div class="info-right unit gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t pad-b">
+        <div class="info-right unit gutter-1-2 unit xs-1 s-1 m-1-2">
           <label class="pad-b-1-8" for="email">Phone number<span class="opt italic">(optional)</span></label>
           <input class="push" id="tel" type="tel">
         </div>
       </div>
+    <hr>
     </fieldset>
-    <div class="gutter-1-2 pad-t-1-4 push-2">
-      <hr>
-      <div class="grid grid middle">
-        <div class="unit info-right gutter-1-2 unit-xs-1 s-1 m-1-2 l-1-2 xl-1 pad-t pad-b">
-          <label for="address">Street address</label>
-          <input id="address" type="number">
+    <legend class="gutter-1-2 pad-t-1-4 giga push">Address</legend>
+      <div class="grid">
+        <div class="unit info-right gutter-1-2 unit-xs-1 s-1 m-1-2">
+          <label class="pad-b-1-8" for="address">Street address</label>
+          <input class="push" id="address" type="number">
         </div>
-        <div class="unit info-right gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t pad-b">
-          <label for="city">City</label>
-          <input id="city" name="city">
+        <div class="unit info-right gutter-1-2 unit xs-1 s-1 m-1-2">
+          <label class="pad-b-1-8" for="city">City</label>
+          <input class="push"id="city" name="city">
         </div>
-        <div class="pad-b">
-          <label class="pab-1-8" for="info">Province</label>
+        <div class="unit info-right gutter-1-2 unit xs-1 s-1 m-1-2">
+          <label class="pad-b-1-8" for="info">Province</label>
           <select class="push" name="shirt" id="type">
             <option value="">Select a province</option>
             <option>Alberta</option>
@@ -89,18 +89,18 @@
             <option>Yukon</option>
           </select>
         </div>
-        <div>
-        </div>
-        <label class="pad-b-1-8 pad-t-1-2" for="code">Postal code</label>
-        <input id="code" type="number">
+        <div class="unit info-right gutter-1-2 unit xs-1 s-1 m-1-2">
+        <label class="pad-b-1-8" for="code">Postal code</label>
+        <input class="push" id="code" type="number">
       </div>
     </div>
-    <hr>
-    <fieldset class="wrapper gutter-1-2 radio">
-      <legend class="unit giga pad-t pad-b-1-8">What activities are you interested in helping with?</legend>
 
-      <div class="grid grid middle">
-        <div class="unit unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-none">
+    <hr>
+    <fieldset>
+      <legend class="wrapper radio giga pad-t pad-b-1-2 gutter-1-2">What activities are you interested in helping with?</legend>
+
+      <div class="">
+        <div class="unit unit xs-1 s-1 m-1-2 push-none">
           <div class="push-1-2">
             <input id="hole" type="checkbox">
             <label for="hole">Digging holes</label>
@@ -144,17 +144,17 @@
       </div>
     </fieldset>
 
-    <fieldset class="wrapper gutter-1-2 radio">
-      <legend class="unit giga pad-t pad-b-1-2">Do you have any experience with the following?</legend>
+    <fieldset>
+      <legend class="wrapper gutter-1-2 radio giga pad-t pad-b-1-2">Do you have any experience with the following?</legend>
 
       <div class="grid grid middle inline">
-        <div class="unit unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-none">
+        <div class="unit unit xs-1 s-1 m-1-2 push-none">
           <div class="push-1-2">
             <input id="shovel" type="checkbox">
             <label for="shovel">Shovels</label>
           </div>
 
-          <div class="unit unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 push-none">
+          <div class="unit unit xs-1 s-1 m-1-2 push-none">
             <input id="gps" type="checkbox">
             <label for="gps">Hand-held GPS</label>
           </div>
