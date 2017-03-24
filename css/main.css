@@ -36,12 +36,6 @@ textarea {
   height: 10em;
 }
 
-button {
-  font-size: 1.25rem;
-  padding: .5em .75em;
-  background-color: #70ad55;
-}
-
 fieldset {
   border: none;
 }
@@ -52,4 +46,21 @@ hr {
 
 .opt {
   color: #70ad55;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: #70ad55;
+  border: none;
+  font-size: 1.25rem;
+  padding: .5em .75em;
+}
+
+.btn:hover {
+  background-color: #6e8c62;
 }
