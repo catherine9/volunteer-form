@@ -64,3 +64,11 @@ footer {
 .btn:hover {
   background-color: #6e8c62;
 }
+
+@media only screen and (min-width: 60em) {
+
+  .info-right {
+    margin-left: 1em;
+  }
+
+}

@@ -19,77 +19,79 @@
     <fieldset class="wrapper">
       <legend class="giga pad-b pad-t gutter-1-4">Personal details</legend>
       <div class="grid grid-middle">
-        <div class="unit gutter-1-2 unit-xs-1 s-1 m-1 l-1-2 xl-1-2 pad-t-1-4 pad-b-1-4">
+        <div class="unit gutter-1-2 unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-4 pad-b-1-4">
           <label for="name">Full name</label>
           <input name="name" id="name">
           <p class="micro italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
         </div>
+        <div class="info-right unit gutter-1-4 unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-4 pad-b-1-4">
+          <label for="name">What should we call you?</label>
+          <input name="name" id="call">
+          <p class="milli italic">What all your friends call you, e.g. “Liz”.</p>
+        </div>
+        <div class="unit unit gutter-1-4 unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-4 pad-b-1-4">
+          <label for="email">Date of birth</label>
+          <input id="date" type="date">
+        </div>
+        <div class="info-right unit gutter-1-2 unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-4 pad-b-1-4">
+          <label for="subject">T-shirt size</label>
+          <select name="shirt" id="subject">
+            <option value="">Select a t-shirt size</option>
+            <option>Fitted: XS</option>
+            <option>Fit as a fiddle</option>
+            <option>Fitted: M</option>
+            <option>Fitted: L</option>
+            <option>Fitted: XL</option>
+            <option>Straight-cut: XS</option>
+            <option>Straight-cut: S</option>
+            <option>Straight-cut: M</option>
+            <option>Straight-cut: L</option>
+            <option>Straight-cut: XL</option>
+          </select>
+        </div>
+        <div class="unit gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t-1-4 pad-b-1-4">
+          <label for="email">Email</label>
+          <input id="email" type="email">
+        </div>
+        <div class="info-right unit gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t pad-b">
+          <label for="email">Phone number<span class="opt italic">(optional)</span></label>
+          <input id="number" type="tel">
+        </div>
       </div>
-      <div class="unit gutter-1-4 unit-xs-1 s-1 m-1 l-1-2 xl-1-2 pad-t-1-4 pad-b-1-4">
-        <label for="name">What should we call you?</label>
-        <input name="name" id="call">
-        <p class="milli italic">What all your friends call you, e.g. “Liz”.</p>
-      </div>
-      <div class="unit unit gutter-1-4 unit-xs-1 s-1 m-1 l-1-2 xl-1-2 pad-t-1-4 pad-b-1-4">
-        <label for="email">Date of birth</label>
-        <input id="date" type="date">
-      </div>
-      <div class="unit gutter-1-2 unit-xs-1 s-1 m-1 l-1-2 xl-1-2 pad-t-1-4 pad-b-1-4">
-        <label for="subject">T-shirt size</label>
-        <select name="shirt" id="subject">
-          <option value="">Select a t-shirt size</option>
-          <option>Fitted: XS</option>
-          <option>Fit as a fiddle</option>
-          <option>Fitted: M</option>
-          <option>Fitted: L</option>
-          <option>Fitted: XL</option>
-          <option>Straight-cut: XS</option>
-          <option>Straight-cut: S</option>
-          <option>Straight-cut: M</option>
-          <option>Straight-cut: L</option>
-          <option>Straight-cut: XL</option>
-        </select>
-      </div>
-      <div class="unit gutter-1-2 unit xs-1 s-1 m-1 l-1-2 xl-1-2 pad-t-1-4 pad-b-1-4">
-        <label for="email">Email</label>
-        <input id="email" type="email">
-      </div>
-      <div class="unit gutter-1-2 unit xs-1 s-1 m-1 l-1-2 xl-1-2 pad-t pad-b">
-        <label for="email">Phone number<span class="opt italic">(optional)</span></label>
-        <input id="number" type="tel">
-      </div>
-      <div class="unit gutter-1-2 unit-xs-1 s-1 m-1 l-1 xl-1 pad-t pad-b">
-        <hr>
-        <h2>Address</h2>
-        <label for="address">Street address</label>
-        <input id="address" type="number">
-      </div>
-      <div class="unit gutter-1-2 unit xs-1 s-1 m-1 l-1-2 xl-1-2 pad-t pad-b">
-        <label for="city">City</label>
-        <input id="city" name="city">
-      </div>
-      <div class="unit gutter-1-2 unit xs-1 s-1 m-1 l-1-2 xl-1-2 pad-t pad-b">
-        <label for="info">Province</label>
-        <select name="shirt" id="type">
-          <option value="">Select a province</option>
-          <option>Alberta</option>
-          <option>British Columbia</option>
-          <option>Manitoba</option>
-          <option>New Brunswick</option>
-          <option>Newfoundland & Labrador</option>
-          <option>Northwest Territories</option>
-          <option>Nova Scotia</option>
-          <option>Nunavut</option>
-          <option>Ontario</option>
-          <option>Prince Edward Island</option>
-          <option>Québec</option>
-          <option>Saskatchewan</option>
-          <option>Yukon</option>
-        </select>
-      </div>
-      <div class="unit gutter-1-2 unit xs-1 s-1 m-1 l-1 xl-1-2 push">
-        <label for="code">Postal code</label>
-        <input id="code" type="number">
+      <div class="grid grid middle">
+        <div class="unit info-right gutter-1-2 unit-xs-1 s-1 mm-1-2 l-1 xl-1 pad-t pad-b">
+          <hr>
+          <h2>Address</h2>
+          <label for="address">Street address</label>
+          <input id="address" type="number">
+        </div>
+        <div class="unit info-right gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t pad-b">
+          <label for="city">City</label>
+          <input id="city" name="city">
+        </div>
+        <div class="unit gutter-1-2 info-right unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-t pad-b">
+          <label for="info">Province</label>
+          <select name="shirt" id="type">
+            <option value="">Select a province</option>
+            <option>Alberta</option>
+            <option>British Columbia</option>
+            <option>Manitoba</option>
+            <option>New Brunswick</option>
+            <option>Newfoundland & Labrador</option>
+            <option>Northwest Territories</option>
+            <option>Nova Scotia</option>
+            <option>Nunavut</option>
+            <option>Ontario</option>
+            <option>Prince Edward Island</option>
+            <option>Québec</option>
+            <option>Saskatchewan</option>
+            <option>Yukon</option>
+          </select>
+        </div>
+        <div class="unit gutter-1-2 info-right unit xs-1 s-1 m-1-2 l-1 xl-1-2 push">
+          <label for="code">Postal code</label>
+          <input id="code" type="number">
+        </div>
       </div>
       <hr>
     </fieldset>
