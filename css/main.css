@@ -22,13 +22,9 @@ label {
   display: block;
 }
 
-form div {
-  margin-bottom: 1.5rem;
-}
-
 input, select, textarea {
   font-size: 1.125rem;
-  border-color: #6e8c62;
+  border-color: #70ad55;
 }
 
 fieldset {
@@ -58,4 +54,8 @@ footer {
 
 .btn:hover {
   background-color: #70ad55;
+}
+
+textarea {
+  min-height: 10em;
 }
